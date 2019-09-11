@@ -1,0 +1,40 @@
+baseURL = "https://m-kikuchi777.github.io/recruting/"
+languageCode = "ja-jp"
+title = "ウェルネット採用ページ"
+theme = "hugo-assembly"
+canonifyurls = true
+publishDir = "docs"
+hasCJKLanguage = true
+
+[params]
+customCss = ["css/custom.css"]
+menu = "menu.html"
+
+[params.nav]
+  home = "ウェルネットについて"
+  culture = "ウェルネットの文化"
+  hiring = "募集中の職種"
+  contact = "問い合わせ先"
+
+[params.culture]
+  enable = true
+  title = "ウェルネットの文化"
+
+[params.hiring]
+  enable = true
+  title = "募集中の職種"
+
+[params.contact]
+  enable = true
+  title = "問い合わせ先"
+
+[params.banner]
+  title = "社員募集！あなたを待っています。"
+  byline1 = "東証一部上場"
+  byline2 = "自社サービス"
+  byline3 = "出向、転勤なし"
+  byline4 = "道外の方 引越し費用１０万円負担"
+
+[params.footer]
+  enable = true
+  copy = "2019 &copy; Wellnet Inc. | All rights reserved"
