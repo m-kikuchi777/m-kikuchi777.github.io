@@ -1,7 +1,10 @@
-baseURL = "//10.180.31.213/"
-languageCode = "ja"
+baseURL = "//m-kikuchi777.github.io/recruting/"
+languageCode = "ja-jp"
 title = "ウェルネット採用ページ"
 theme = "hugo-assembly"
+canonifyurls = true
+publishDir = "docs"
+hasCJKLanguage = true
 
 [params]
 customCss = ["css/custom.css"]
