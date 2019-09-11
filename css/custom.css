@@ -305,7 +305,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 }
 
 .background-image {
-  background: #111111 url(../images/about/background.png) no-repeat center;
+  background: #111111 url(../images/about/work3.jpg) no-repeat center;
   background-size: cover;
   position: relative;
   left: 0;
@@ -317,7 +317,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 .background-image::after {
   content: '';
   position: absolute;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .2);
   left: 0;
   right: 0;
   top: 0;
